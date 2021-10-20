@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Framework(failed)">
+    <classes>
+      <class name="com.guru.testcases.HomePageTest">
+        <methods>
+          <include name="VarifyHomePageTitleTest"/>
+          <include name="TearDown"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.guru.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Framework(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.guru.ExtentReport.Blistener"/>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="C:/Users/sunil/IdeaProjects/Framework">
+        
+        <classes>
+            <class name="com.guru.testcases.HomePageTest">
+                <methods>
+                    <include name="VarifyHomePageTitleTest"/>
+                    <include name="NewToursTest"/>
+                </methods>
+            </class>
+            <class  name="com.guru.testcases.LoginTest">
+                <methods>
+                    <include name="LoginPageTitleTest"/>
+                    <include name="LogoTest"/>
+                    <exclude name="LoginTest"/>
+                </methods>
+            </class>
+            <class name="com.guru.testcases.NewToursTest">
+                <methods>
+                    <include name="ValidateTittleTest"/>
+                    <include name="AddContactTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

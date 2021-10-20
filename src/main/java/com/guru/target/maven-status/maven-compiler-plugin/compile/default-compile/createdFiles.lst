@@ -1,0 +1,10 @@
+com\guru\InsuranceLogin.class
+com\guru\ExtentReport\Blistener.class
+com\guru\pages\NewTours.class
+com\guru\pages\Login.class
+com\guru\utility\Testutil.class
+com\guru\base\BaseTest.class
+com\guru\ExtentReport\GenerateExtentReports.class
+com\guru\pages\com\RegisterPage.class
+com\guru\pages\Telecom.class
+com\guru\pages\HomePage.class

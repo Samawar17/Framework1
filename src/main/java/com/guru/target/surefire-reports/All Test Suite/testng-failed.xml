@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" verbose="0">
+  <listeners>
+    <listener class-name="com.guru.ExtentReport.Blistener"/>
+  </listeners>
+  <test name="C:/Users/sunil/IdeaProjects/Framework(failed)">
+    <classes>
+      <class name="com.guru.testcases.LoginTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.guru.testcases.LoginTest -->
+      <class name="com.guru.testcases.NewToursTest">
+        <methods>
+          <include name="ValidateTittleTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.guru.testcases.NewToursTest -->
+      <class name="com.guru.testcases.HomePageTest">
+        <methods>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.guru.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- C:/Users/sunil/IdeaProjects/Framework(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
